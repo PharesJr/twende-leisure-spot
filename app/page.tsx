@@ -68,31 +68,6 @@ function Home() {
       </div>
 
       {/* Grid 1 */}
-      <div className="md:grid grid-cols-2 md:gap-4 pt-10">
-        {/* Left */}
-        <div className="flex items-center justify-center w-full h-[350px]">
-          <div className="relative w-[85%] h-full">
-            <Image
-              src="/assets/7.jpeg" // Replace with your image path
-              alt="Spa Image"
-              fill
-              style={{ objectFit: "cover", borderRadius: 10 }}
-            />
-          </div>
-        </div>
-        {/* Right */}
-        <div className="flex flex-col items-start justify-center gap-4 py-10 px-4">
-          <h1 className="md:text-[50px] text-[#FFDE17] text-4xl font-bold font-serif">
-            Rejuvenate At Our Spa
-          </h1>
-          <span className="md:text-[24px] text-lg text-white text-left  font-serif">
-            Indulge in a variety of treatments designed to relax your body and
-            mind.
-          </span>
-        </div>
-      </div>
-
-      {/* Grid 2 */}
       <div className="md:grid grid-cols-2 gap-4">
         {/* Left */}
         <div className="flex flex-col items-start justify-center py-4 px-4 gap-4">
@@ -106,7 +81,7 @@ function Home() {
 
         {/* Right */}
         <div className="flex items-center justify-center w-full h-[350px]">
-          <div className="relative w-[85%] h-full">
+          <div className="relative w-[90%] h-full">
             <Image
               src="/assets/8.jpeg" // Replace with your image path
               alt="Spa Image"
@@ -117,11 +92,11 @@ function Home() {
         </div>
       </div>
 
-      {/* Grid 3 */}
-      <div className="md:grid grid-cols-2 py-10 gap-4">
+      {/* Grid 2 */}
+      <div className="hidden md:grid grid-cols-2 py-10 gap-4">
         {/* Left */}
         <div className="flex items-center justify-center w-full h-[350px]">
-          <div className="relative w-[85%] h-full">
+          <div className="relative w-[90%] h-full">
             <Image
               src="/assets/9.jpeg" // Replace with your image path
               alt="Spa Image"
@@ -132,7 +107,7 @@ function Home() {
         </div>
         {/* Right */}
         <div className="flex flex-col items-start justify-center px-4 py-10">
-          <h1 className="md:text-[50px] text-4xl text-[#FFDE17] font-bold font-serif">
+          <h1 className="md:text-[50px] text-4xl text-[#FFDE17] font-bold font-serif pt-10">
             Hassle-Free Parking
           </h1>
           <span className="md:text-[24px] text-lg text-white text-left font-serif ">
@@ -142,11 +117,37 @@ function Home() {
         </div>
       </div>
 
+      {/* Grid 2 Mobile */}
+      <div className="md:hidden flex flex-col gap-4">
+        {/* Left */}
+        <div className="flex flex-col items-start justify-center py-4 px-4 gap-4">
+          <h1 className="md:text-[50px] text-4xl text-[#FFDE17] font-bold leading-none font-serif pt-10">
+            Hassle-Free Parking
+          </h1>
+          <span className="md:text-[24px] text-lg text-white text-left font-serif ">
+            With ample parking space available, your convinience is alway our
+            priority.
+          </span>
+        </div>
+
+        {/* Right */}
+        <div className="flex items-center justify-center w-full h-[350px]">
+          <div className="relative w-[90%] h-full">
+            <Image
+              src="/assets/9.jpeg" // Replace with your image path
+              alt="Spa Image"
+              fill
+              style={{ objectFit: "cover", borderRadius: 10 }}
+            />
+          </div>
+        </div>
+      </div>
+
       {/* Grid 4 */}
       <div className="md:grid grid-cols-2 gap-4">
         {/* Left */}
         <div className="flex flex-col items-start justify-center px-4 py-4 gap-4">
-          <h1 className="md:text-[50px] text-4xl text-[#FFDE17] font-bold leading-none font-serif">
+          <h1 className="md:text-[50px] text-4xl text-[#FFDE17] font-bold leading-none font-serif pt-10">
             Full-Service Car Wash
           </h1>
           <span className="md:text-[24px] text-lg text-white text-left font-serif ">
@@ -157,7 +158,7 @@ function Home() {
 
         {/* Right */}
         <div className="flex items-center justify-center w-full h-[350px]">
-          <div className="relative w-[85%] h-full">
+          <div className="relative w-[90%] h-full">
             <Image
               src="/assets/10.jpeg" // Replace with your image path
               alt="Spa Image"
@@ -293,7 +294,7 @@ function Home() {
 
         {/* Right */}
         <div className="flex items-center justify-center w-full h-[450px]">
-          <div className="relative w-[85%] h-full">
+          <div className="relative w-[90%] h-full">
             <Image
               src="/assets/3.jpeg" // Replace with your image path
               alt="Spa Image"
