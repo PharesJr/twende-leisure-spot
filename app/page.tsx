@@ -5,11 +5,11 @@ import { Button } from "@/components/ui/button";
 
 function Home() {
   return (
-    <div className="flex flex-col bg-[#1E1F20] pb-4">
+    <div className="flex min-h-screen w-screen flex-col bg-[#1E1F20] overflow-x-hidden pb-4">
       {/* Background Image with Banner Text */}
       <div
-        className="relative h-screen bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/3.jpg')" }}
+        className="relative h-[550px] bg-cover bg-center"
+        style={{ backgroundImage: "url('/assets/3.jpeg')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex flex-col justify-between py-10 px-4">
           {/* Title at the Top */}
@@ -33,7 +33,7 @@ function Home() {
       {/* Banner Image Section */}
       <div className="relative h-[500px]">
         <Image
-          src={"/assets/5.jpg"} // Replace with your image path
+          src={"/assets/5.jpeg"} // Replace with your image path
           alt="Banner Image"
           fill
           sizes="100vw"
@@ -73,7 +73,7 @@ function Home() {
         <div className="flex items-center justify-center w-full h-[350px]">
           <div className="relative w-[85%] h-full">
             <Image
-              src="/assets/7.jpg" // Replace with your image path
+              src="/assets/7.jpeg" // Replace with your image path
               alt="Spa Image"
               fill
               style={{ objectFit: "cover", borderRadius: 10 }}
@@ -108,7 +108,7 @@ function Home() {
         <div className="flex items-center justify-center w-full h-[350px]">
           <div className="relative w-[85%] h-full">
             <Image
-              src="/assets/8.jpg" // Replace with your image path
+              src="/assets/8.jpeg" // Replace with your image path
               alt="Spa Image"
               fill
               style={{ objectFit: "cover", borderRadius: 10 }}
@@ -123,7 +123,7 @@ function Home() {
         <div className="flex items-center justify-center w-full h-[350px]">
           <div className="relative w-[85%] h-full">
             <Image
-              src="/assets/9.jpg" // Replace with your image path
+              src="/assets/9.jpeg" // Replace with your image path
               alt="Spa Image"
               fill
               style={{ objectFit: "cover", borderRadius: 10 }}
@@ -159,7 +159,7 @@ function Home() {
         <div className="flex items-center justify-center w-full h-[350px]">
           <div className="relative w-[85%] h-full">
             <Image
-              src="/assets/10.jpg" // Replace with your image path
+              src="/assets/10.jpeg" // Replace with your image path
               alt="Spa Image"
               fill
               style={{ objectFit: "cover", borderRadius: 10 }}
@@ -176,12 +176,12 @@ function Home() {
 
       {/* On the Menu Grid */}
 
-      <div className="flex flex-col gap-6 md:grid grid-cols-3 md:gap-4 h-[1400px] md:h-[450px] px-6">
+      <div className="flex flex-col gap-6 md:grid grid-cols-3 md:gap-4 h-[1550px] md:h-[450px] px-6 w-full">
         {/* Image 1 */}
         <div className="relative flex items-center justify-center w-full h-full">
           <div
             className="w-[100%] h-[100%] bg-cover bg-center rounded-md opacity-70"
-            style={{ backgroundImage: "url('/assets/12.jpg')" }}
+            style={{ backgroundImage: "url('/assets/12.jpeg')" }}
           ></div>
           <div className="absolute inset-0 bg-black bg-opacity-30 rounded-md"></div>
           <div className="absolute bottom-4 left-2 right-2 border border-[#FFDE17] rounded-2xl p-2 text-center bg-white bg-opacity-10 backdrop-blur-md">
@@ -194,7 +194,7 @@ function Home() {
         <div className="relative flex items-center justify-center w-full h-full">
           <div
             className="w-[100%] h-[100%] bg-cover bg-center rounded-md opacity-70"
-            style={{ backgroundImage: "url('/assets/13.jpg')" }}
+            style={{ backgroundImage: "url('/assets/13.jpeg')" }}
           ></div>
           <div className="absolute inset-0 bg-black bg-opacity-30 rounded-md"></div>
           <div className="absolute bottom-4 left-2 right-2 border border-[#FFDE17] rounded-2xl p-2 text-center bg-white bg-opacity-10 backdrop-blur-md">
@@ -207,7 +207,7 @@ function Home() {
         <div className="relative flex items-center justify-center w-full h-full">
           <div
             className="w-[100%] h-[100%] bg-cover bg-center rounded-md opacity-70"
-            style={{ backgroundImage: "url('/assets/14.jpg')" }}
+            style={{ backgroundImage: "url('/assets/14.jpeg')" }}
           ></div>
           <div className="absolute inset-0 bg-black bg-opacity-30 rounded-md"></div>
           <div className="absolute bottom-4 left-2 right-2 border border-[#FFDE17] rounded-2xl p-2 text-center bg-white bg-opacity-10 backdrop-blur-md">
@@ -229,7 +229,7 @@ function Home() {
       {/* In the News Section */}
       <div
         className="relative min-h-screen bg-cover bg-center py-6"
-        style={{ backgroundImage: "url('/assets/1.jpg')" }}
+        style={{ backgroundImage: "url('/assets/1.jpeg')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-65 text-white flex flex-col justify-between py-4 px-4">
           <div className="md:grid grid-cols-2 gap-4 flex-1 items-center justify-center">
@@ -295,7 +295,7 @@ function Home() {
         <div className="flex items-center justify-center w-full h-[450px]">
           <div className="relative w-[85%] h-full">
             <Image
-              src="/assets/3.jpg" // Replace with your image path
+              src="/assets/3.jpeg" // Replace with your image path
               alt="Spa Image"
               fill
               style={{ objectFit: "cover", borderRadius: 10 }}
